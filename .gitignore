@@ -1,0 +1,50 @@
+# Assignment Specifications & Copyrighted Course Materials
+*.pdf
+pa2_pdf_content.txt
+*_pdf_text.txt
+*_pdf_content.txt
+
+# Heavy Datasets & Video Archives (>100MB GitHub limit & Copyright)
+*.zip
+*.tar.gz
+*.7z
+*.mp4
+dataset/
+data/
+Dog1/
+Basketball/
+CarScale/
+
+# Model Checkpoints & Heavy Weights
+checkpoint/
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Duplicate / Backup Folders
+* - Kopya/
+*-Kopya/
+backup/
+
+# Debug Logs & Scratch Dump Files
+code_review.txt
+final_check.txt
+fixed_cells_check.txt
+notebook_dump.txt
+*.log
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+venv/
+env/
+.env
+
+# OS / IDE Generated Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
